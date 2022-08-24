@@ -12,5 +12,4 @@
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.0.85/g' package/base-files/files/bin/config_generate
-src-git kenzo https://github.com/kenzok8/openwrt-packages
-src-git small https://github.com/kenzok8/small
+
